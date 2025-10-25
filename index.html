@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>快乐学习伴侣 - 孩子的专属学习朋友</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- 欢迎页面 -->
+        <div id="welcomePage" class="page active">
+            <div class="header">
+                <h1>?? 快乐学习伴侣</h1>
+                <p>你的专属学习好朋友！</p >
+            </div>
+            
+            <div class="character-selection">
+                <h3>选择你的学习伙伴：</h3>
+                <div class="characters">
+                    <div class="character" data-role="聪明同学">
+                        <div class="avatar">??</div>
+                        <span>聪明同学</span>
+                    </div>
+                    <div class="character" data-role="知识导师">
+                        <div class="avatar">?????</div>
+                        <span>知识导师</span>
+                    </div>
+                    <div class="character" data-role="探险伙伴">
+                        <div class="avatar">???♂?</div>
+                        <span>探险伙伴</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dream-input">
+                <h3>你的梦想是什么？</h3>
+                <input type="text" id="dreamInput" placeholder="例如：科学家、医生、宇航员...">
+            </div>
+
+            <button id="startLearning" class="cta-button">开始快乐学习！</button>
+        </div>
+
+        <!-- 聊天学习页面 -->
+        <div id="chatPage" class="page">
+            <div class="chat-header">
+                <button id="backButton">← 返回</button>
+                <h3 id="companionName">学习伙伴</h3>
+            </div>
+            
+            <div id="chatMessages" class="chat-messages">
+                <div class="message companion-message">
+                    <div class="avatar" id="companionAvatar">??</div>
+                    <div class="bubble">
+                        <strong id="companionRole">聪明同学</strong>
+                        <p>嗨！我是你的学习伙伴，准备好一起探索知识的海洋了吗？??</p >
+                    </div>
+                </div>
+            </div>
+
+            <div class="quick-questions">
+                <div class="question-chip" data-question="帮我讲解数学题">?? 数学帮助</div>
+                <div class="question-chip" data-question="讲个有趣的故事">?? 故事时间</div>
+                <div class="question-chip" data-question="玩个学习游戏">?? 学习游戏</div>
+                <div class="question-chip" data-question="科学小知识">?? 科学探索</div>
+            </div>
+
+            <div class="input-area">
+                <input type="text" id="messageInput" placeholder="问你的学习伙伴...">
+                <button id="sendMessage">发送</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
