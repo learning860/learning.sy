@@ -1,4 +1,4 @@
-* {
+ï»¿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -118,7 +118,7 @@ body {
     transform: scale(0.98);
 }
 
-/* ÁÄÌìÒ³ÃæÑùÊ½ */
+/* èŠå¤©é¡µé¢æ ·å¼ */
 .chat-header {
     display: flex;
     align-items: center;

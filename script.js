@@ -1,43 +1,43 @@
-// Ñ§Ï°»ï°éµÄ»ØÓ¦¿â
+ï»¿// å­¦ä¹ ä¼™ä¼´çš„å›åº”åº“
 const responses = {
-    "´ÏÃ÷Í¬Ñ§": {
-        "greeting": "àË£¡ÎÒÊÇÄãµÄÍ¬Ñ§Ğ¡Ã÷£¬ÎÒÃÇÒ»ÆğÑ§Ï°°É£¡Óöµ½ÄÑÌâ¾ÍÎÊÎÒÅ¶£¡??",
-        "math": "ÊıÑ§ÆäÊµ³¬ÓĞÈ¤µÄ£¡¾ÍÏñ½âÃÕÓÎÏ·Ò»Ñù¡£±ÈÈç 25 ¡Á 4 = 100£¬ÒòÎª 20¡Á4=80£¬5¡Á4=20£¬¼ÓÆğÀ´¾ÍÊÇ100À²£¡??",
-        "story": "ÈÃÎÒ½²¸öÊıÑ§Íõ¹úµÄ¹ÊÊÂ£ºÊı×ÖÃÇÃ¿Ìì¶¼»á¿ªÅÉ¶Ô£¬Å¼ÊıÏ²»¶ÌøÎè£¬ÆæÊıÏ²»¶³ª¸è...??",
-        "game": "ÎÒÃÇÀ´Íæ¸öÓÎÏ·°É£¡´Ó1Êıµ½100£¬Óöµ½7µÄ±¶Êı¾ÍÅÄÊÖ£¡×¼±¸ºÃÁËÂğ£¿??",
-        "science": "ÄãÖªµÀÂğ£¿ºûµûµÄÎ¶¾õÆ÷¹ÙÔÚ½ÅÉÏ£¡ËüÃÇÓÃ½ÅÀ´Æ·³¢»¨¶äµÄÎ¶µÀ¡£ÉñÆæ°É£¿??"
+    "èªæ˜åŒå­¦": {
+        "greeting": "å—¨ï¼æˆ‘æ˜¯ä½ çš„åŒå­¦å°æ˜ï¼Œæˆ‘ä»¬ä¸€èµ·å­¦ä¹ å§ï¼é‡åˆ°éš¾é¢˜å°±é—®æˆ‘å“¦ï¼??",
+        "math": "æ•°å­¦å…¶å®è¶…æœ‰è¶£çš„ï¼å°±åƒè§£è°œæ¸¸æˆä¸€æ ·ã€‚æ¯”å¦‚ 25 Ã— 4 = 100ï¼Œå› ä¸º 20Ã—4=80ï¼Œ5Ã—4=20ï¼ŒåŠ èµ·æ¥å°±æ˜¯100å•¦ï¼??",
+        "story": "è®©æˆ‘è®²ä¸ªæ•°å­¦ç‹å›½çš„æ•…äº‹ï¼šæ•°å­—ä»¬æ¯å¤©éƒ½ä¼šå¼€æ´¾å¯¹ï¼Œå¶æ•°å–œæ¬¢è·³èˆï¼Œå¥‡æ•°å–œæ¬¢å”±æ­Œ...??",
+        "game": "æˆ‘ä»¬æ¥ç©ä¸ªæ¸¸æˆå§ï¼ä»1æ•°åˆ°100ï¼Œé‡åˆ°7çš„å€æ•°å°±æ‹æ‰‹ï¼å‡†å¤‡å¥½äº†å—ï¼Ÿ??",
+        "science": "ä½ çŸ¥é“å—ï¼Ÿè´è¶çš„å‘³è§‰å™¨å®˜åœ¨è„šä¸Šï¼å®ƒä»¬ç”¨è„šæ¥å“å°èŠ±æœµçš„å‘³é“ã€‚ç¥å¥‡å§ï¼Ÿ??"
     },
-    "ÖªÊ¶µ¼Ê¦": {
-        "greeting": "ÄãºÃ£¬ÎÒÊÇÄãµÄÖªÊ¶µ¼Ê¦¡£Ñ§Ï°ÊÇÍ¨ÍùÃÎÏëµÄ½×Ìİ£¬ÈÃÎÒÃÇ¿ªÊ¼°É£¡??",
-        "math": "ÊıÑ§ÊÇ¿ÆÑ§µÄÓïÑÔ¡£±ÈÈçÔ²µÄÖÜ³¤¹«Ê½ÊÇ C=2¦Ğr£¬ÆäÖĞ¦ĞÔ¼µÈÓÚ3.14¡£Àí½âÁËÂğ£¿??",
-        "story": "´ÓÇ°ÓĞ¸ö½Ğ°¢»ùÃ×µÂµÄ¿ÆÑ§¼Ò£¬ËûÔÚÔ¡¸×Àï·¢ÏÖÁË¸¡Á¦Ô­Àí£¬¸ßĞËµÃ¹â×ÅÉí×ÓÅÜ³öÈ¥´óº°'ÎÒ·¢ÏÖÁË£¡'",
-        "game": "ÎÒÃÇÀ´Íæ'´ÊÓï½ÓÁú'£ºÎÒËµ'Ñ§Ï°'£¬Äã½Ó'Ï°×÷'£¬È»ºóÎÒ½Ó'×÷ÎÄ'...",
-        "science": "µØÇòÎ§ÈÆÌ«Ñô¹«×ªÒ»ÖÜĞèÒª365.25Ìì£¬Õâ¾ÍÊÇÎªÊ²Ã´Ã¿ËÄÄêÓĞÒ»¸öÈòÄê¡£??"
+    "çŸ¥è¯†å¯¼å¸ˆ": {
+        "greeting": "ä½ å¥½ï¼Œæˆ‘æ˜¯ä½ çš„çŸ¥è¯†å¯¼å¸ˆã€‚å­¦ä¹ æ˜¯é€šå¾€æ¢¦æƒ³çš„é˜¶æ¢¯ï¼Œè®©æˆ‘ä»¬å¼€å§‹å§ï¼??",
+        "math": "æ•°å­¦æ˜¯ç§‘å­¦çš„è¯­è¨€ã€‚æ¯”å¦‚åœ†çš„å‘¨é•¿å…¬å¼æ˜¯ C=2Ï€rï¼Œå…¶ä¸­Ï€çº¦ç­‰äº3.14ã€‚ç†è§£äº†å—ï¼Ÿ??",
+        "story": "ä»å‰æœ‰ä¸ªå«é˜¿åŸºç±³å¾·çš„ç§‘å­¦å®¶ï¼Œä»–åœ¨æµ´ç¼¸é‡Œå‘ç°äº†æµ®åŠ›åŸç†ï¼Œé«˜å…´å¾—å…‰ç€èº«å­è·‘å‡ºå»å¤§å–Š'æˆ‘å‘ç°äº†ï¼'",
+        "game": "æˆ‘ä»¬æ¥ç©'è¯è¯­æ¥é¾™'ï¼šæˆ‘è¯´'å­¦ä¹ 'ï¼Œä½ æ¥'ä¹ ä½œ'ï¼Œç„¶åæˆ‘æ¥'ä½œæ–‡'...",
+        "science": "åœ°çƒå›´ç»•å¤ªé˜³å…¬è½¬ä¸€å‘¨éœ€è¦365.25å¤©ï¼Œè¿™å°±æ˜¯ä¸ºä»€ä¹ˆæ¯å››å¹´æœ‰ä¸€ä¸ªé—°å¹´ã€‚??"
     },
-    "Ì½ÏÕ»ï°é": {
-        "greeting": "ºÙ£¡Ã°ÏÕ¼Ò£¡ÖªÊ¶µÄÊÀ½ç¾ÍÏñÒ»¸ö´ó±¦²Ø£¬ÎÒÃÇÒ»ÆğÌ½Ë÷°É£¡???",
-        "math": "½âÊıÑ§Ìâ¾ÍÏñÑ°±¦£¡Ã¿¸öÊı×Ö¶¼ÊÇÏßË÷£¬Ã¿¸ö¹«Ê½¶¼ÊÇ²Ø±¦Í¼£¡±ÈÈç 15 + 27 = 42£¬ÎÒÃÇÕÒµ½±¦²ØÀ²£¡??",
-        "story": "ÔÚÒ£Ô¶µÄÖÇ»ÛÉ­ÁÖÀï£¬×¡×Å»áËµ»°µÄÊı×Ö¾«Áé£¬ËüÃÇ°ïÖúº¢×ÓÃÇ½â¾öÑ§Ï°ÄÑÌâ...",
-        "game": "ÈÃÎÒÃÇ¿ªÊ¼ÖªÊ¶´óÃ°ÏÕ£¡µÚÒ»¹Ø£ºËµ³ö5ÖÖ²»Í¬µÄ¶¯Îï£¡µÚ¶ş¹Ø£º±³ËĞ³Ë·¨¿Ú¾÷£¡",
-        "science": "Ì½ÏÕÊ±¼ä£¡ÄãÖªµÀ²ÊºçÎªÊ²Ã´ÓĞÆßÖÖÑÕÉ«Âğ£¿ÄÇÊÇÒòÎªÑô¹â´©¹ıÓêµÎÊ±·¢ÉúÁËÕÛÉä£¡??"
+    "æ¢é™©ä¼™ä¼´": {
+        "greeting": "å˜¿ï¼å†’é™©å®¶ï¼çŸ¥è¯†çš„ä¸–ç•Œå°±åƒä¸€ä¸ªå¤§å®è—ï¼Œæˆ‘ä»¬ä¸€èµ·æ¢ç´¢å§ï¼???",
+        "math": "è§£æ•°å­¦é¢˜å°±åƒå¯»å®ï¼æ¯ä¸ªæ•°å­—éƒ½æ˜¯çº¿ç´¢ï¼Œæ¯ä¸ªå…¬å¼éƒ½æ˜¯è—å®å›¾ï¼æ¯”å¦‚ 15 + 27 = 42ï¼Œæˆ‘ä»¬æ‰¾åˆ°å®è—å•¦ï¼??",
+        "story": "åœ¨é¥è¿œçš„æ™ºæ…§æ£®æ—é‡Œï¼Œä½ç€ä¼šè¯´è¯çš„æ•°å­—ç²¾çµï¼Œå®ƒä»¬å¸®åŠ©å­©å­ä»¬è§£å†³å­¦ä¹ éš¾é¢˜...",
+        "game": "è®©æˆ‘ä»¬å¼€å§‹çŸ¥è¯†å¤§å†’é™©ï¼ç¬¬ä¸€å…³ï¼šè¯´å‡º5ç§ä¸åŒçš„åŠ¨ç‰©ï¼ç¬¬äºŒå…³ï¼šèƒŒè¯µä¹˜æ³•å£è¯€ï¼",
+        "science": "æ¢é™©æ—¶é—´ï¼ä½ çŸ¥é“å½©è™¹ä¸ºä»€ä¹ˆæœ‰ä¸ƒç§é¢œè‰²å—ï¼Ÿé‚£æ˜¯å› ä¸ºé˜³å…‰ç©¿è¿‡é›¨æ»´æ—¶å‘ç”Ÿäº†æŠ˜å°„ï¼??"
     }
 };
 
-// ÃÎÏëÏà¹ØµÄ¹ÄÀøÓï
+// æ¢¦æƒ³ç›¸å…³çš„é¼“åŠ±è¯­
 const dreamEncouragements = {
-    "¿ÆÑ§¼Ò": "Ì«°ôÁË£¡¿ÆÑ§¼ÒÌ½Ë÷ÊÀ½çµÄ°ÂÃØ£¬ÎÒÃÇ´ÓÏÖÔÚ¿ªÊ¼»ıÀÛ¿ÆÑ§ÖªÊ¶°É£¡??",
-    "Ò½Éú": "Î°´óµÄÃÎÏë£¡Ò½Éú°ïÖúËûÈË£¬ÎÒÃÇÏÈÀ´Ñ§Ï°ÉúÎïÖªÊ¶ÔõÃ´Ñù£¿??",
-    "Óîº½Ô±": "¿á£¡Óîº½Ô±ĞèÒªºÜ¶àÖªÊ¶£¬ÊıÑ§¡¢ÎïÀí¡¢ÌìÎÄ...ÈÃÎÒÃÇÒ»²½²½À´£¡??",
-    "ÀÏÊ¦": "ÕæÎÂÅ¯£¡ÀÏÊ¦´«µİÖªÊ¶£¬ÎÒÃÇÏÈ°Ñ×Ô¼º±ä³ÉÖªÊ¶Ğ¡´ïÈË°É£¡??",
-    "Ä¬ÈÏ": "Õâ¸öÃÎÏëÕæ°ô£¡Ñ§Ï°ÊÇÊµÏÖÃÎÏëµÄµÚÒ»²½£¬ÎÒÃÇÒ»ÆğÅ¬Á¦£¡??"
+    "ç§‘å­¦å®¶": "å¤ªæ£’äº†ï¼ç§‘å­¦å®¶æ¢ç´¢ä¸–ç•Œçš„å¥¥ç§˜ï¼Œæˆ‘ä»¬ä»ç°åœ¨å¼€å§‹ç§¯ç´¯ç§‘å­¦çŸ¥è¯†å§ï¼??",
+    "åŒ»ç”Ÿ": "ä¼Ÿå¤§çš„æ¢¦æƒ³ï¼åŒ»ç”Ÿå¸®åŠ©ä»–äººï¼Œæˆ‘ä»¬å…ˆæ¥å­¦ä¹ ç”Ÿç‰©çŸ¥è¯†æ€ä¹ˆæ ·ï¼Ÿ??",
+    "å®‡èˆªå‘˜": "é…·ï¼å®‡èˆªå‘˜éœ€è¦å¾ˆå¤šçŸ¥è¯†ï¼Œæ•°å­¦ã€ç‰©ç†ã€å¤©æ–‡...è®©æˆ‘ä»¬ä¸€æ­¥æ­¥æ¥ï¼??",
+    "è€å¸ˆ": "çœŸæ¸©æš–ï¼è€å¸ˆä¼ é€’çŸ¥è¯†ï¼Œæˆ‘ä»¬å…ˆæŠŠè‡ªå·±å˜æˆçŸ¥è¯†å°è¾¾äººå§ï¼??",
+    "é»˜è®¤": "è¿™ä¸ªæ¢¦æƒ³çœŸæ£’ï¼å­¦ä¹ æ˜¯å®ç°æ¢¦æƒ³çš„ç¬¬ä¸€æ­¥ï¼Œæˆ‘ä»¬ä¸€èµ·åŠªåŠ›ï¼??"
 };
 
-// DOMÔªËØ
+// DOMå…ƒç´ 
 let selectedCharacter = null;
 let userDream = '';
 
 document.addEventListener('DOMContentLoaded', function() {
-    // ½ÇÉ«Ñ¡Ôñ
+    // è§’è‰²é€‰æ‹©
     document.querySelectorAll('.character').forEach(char => {
         char.addEventListener('click', function() {
             document.querySelectorAll('.character').forEach(c => c.classList.remove('selected'));
@@ -46,39 +46,39 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // ¿ªÊ¼Ñ§Ï°°´Å¥
+    // å¼€å§‹å­¦ä¹ æŒ‰é’®
     document.getElementById('startLearning').addEventListener('click', function() {
         userDream = document.getElementById('dreamInput').value.trim();
         
         if (!selectedCharacter) {
-            alert('ÇëÏÈÑ¡ÔñÄãµÄÑ§Ï°»ï°é£¡');
+            alert('è¯·å…ˆé€‰æ‹©ä½ çš„å­¦ä¹ ä¼™ä¼´ï¼');
             return;
         }
 
         if (!userDream) {
-            alert('Çë¸æËßÎÒÄãµÄÃÎÏëÅ¶£¡');
+            alert('è¯·å‘Šè¯‰æˆ‘ä½ çš„æ¢¦æƒ³å“¦ï¼');
             return;
         }
 
-        // ÇĞ»»µ½ÁÄÌìÒ³Ãæ
+        // åˆ‡æ¢åˆ°èŠå¤©é¡µé¢
         document.getElementById('welcomePage').classList.remove('active');
         document.getElementById('chatPage').classList.add('active');
         
-        // ¸üĞÂÁÄÌì½çÃæ
+        // æ›´æ–°èŠå¤©ç•Œé¢
         document.getElementById('companionName').textContent = selectedCharacter;
         document.getElementById('companionRole').textContent = selectedCharacter;
         
-        // ·¢ËÍ»¶Ó­ÏûÏ¢
+        // å‘é€æ¬¢è¿æ¶ˆæ¯
         sendWelcomeMessage();
     });
 
-    // ·µ»Ø°´Å¥
+    // è¿”å›æŒ‰é’®
     document.getElementById('backButton').addEventListener('click', function() {
         document.getElementById('chatPage').classList.remove('active');
         document.getElementById('welcomePage').classList.add('active');
     });
 
-    // ·¢ËÍÏûÏ¢
+    // å‘é€æ¶ˆæ¯
     document.getElementById('sendMessage').addEventListener('click', sendUserMessage);
     document.getElementById('messageInput').addEventListener('keypress', function(e) {
         if (e.key === 'Enter') {
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // ¿ìËÙÎÊÌâ
+    // å¿«é€Ÿé—®é¢˜
     document.querySelectorAll('.question-chip').forEach(chip => {
         chip.addEventListener('click', function() {
             const question = this.dataset.question;
@@ -98,11 +98,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function sendWelcomeMessage() {
     const welcomeMsg = responses[selectedCharacter].greeting;
-    const encouragement = dreamEncouragements[userDream] || dreamEncouragements.Ä¬ÈÏ;
+    const encouragement = dreamEncouragements[userDream] || dreamEncouragements.é»˜è®¤;
     
     addMessageToChat('companion', welcomeMsg);
     setTimeout(() => {
-        addMessageToChat('companion', `ÌıËµÄãÏë³ÉÎª${userDream}£¿${encouragement}`);
+        addMessageToChat('companion', `å¬è¯´ä½ æƒ³æˆä¸º${userDream}ï¼Ÿ${encouragement}`);
     }, 1500);
 }
 
@@ -114,7 +114,7 @@ function sendUserMessage() {
         addMessageToChat('user', message);
         input.value = '';
         
-        // Ä£ÄâË¼¿¼Ê±¼ä
+        // æ¨¡æ‹Ÿæ€è€ƒæ—¶é—´
         setTimeout(() => generateResponse(message), 1000 + Math.random() * 2000);
     }
 }
@@ -123,22 +123,22 @@ function generateResponse(userMessage) {
     let response = '';
     const lowerMessage = userMessage.toLowerCase();
     
-    if (lowerMessage.includes('ÊıÑ§') || lowerMessage.includes('ËãÊı')) {
+    if (lowerMessage.includes('æ•°å­¦') || lowerMessage.includes('ç®—æ•°')) {
         response = responses[selectedCharacter].math;
-    } else if (lowerMessage.includes('¹ÊÊÂ') || lowerMessage.includes('½²¸ö')) {
+    } else if (lowerMessage.includes('æ•…äº‹') || lowerMessage.includes('è®²ä¸ª')) {
         response = responses[selectedCharacter].story;
-    } else if (lowerMessage.includes('ÓÎÏ·') || lowerMessage.includes('Íæ')) {
+    } else if (lowerMessage.includes('æ¸¸æˆ') || lowerMessage.includes('ç©')) {
         response = responses[selectedCharacter].game;
-    } else if (lowerMessage.includes('¿ÆÑ§') || lowerMessage.includes('ÎªÊ²Ã´')) {
+    } else if (lowerMessage.includes('ç§‘å­¦') || lowerMessage.includes('ä¸ºä»€ä¹ˆ')) {
         response = responses[selectedCharacter].science;
     } else {
-        // Ä¬ÈÏ»ØÓ¦
+        // é»˜è®¤å›åº”
         const defaultResponses = [
-            "Õâ¸öÎÊÌâÎÊµÃºÃ£¡ÈÃÎÒÃÇÒ»ÆğÀ´Ì½Ë÷´ğ°¸°É£¡??",
-            "ÍÛ£¬ÄãÕæÊÇ¸ö°®Ë¼¿¼µÄº¢×Ó£¡Õâ¸öÎÊÌâÎÒÃÇ¿ÉÒÔÕâÑùÀí½â...",
-            "Ì«°ôµÄÎÊÌâ£¡ÕâÈÃÎÒÏëÆğÁËÒ»¸öÓĞÈ¤µÄÖªÊ¶µã...",
-            "ÄãµÄºÃÆæĞÄÕæÇ¿£¡ÕâÕıÊÇ³ÉÎª${userDream}ĞèÒªµÄÖØÒªÆ·ÖÊ£¡",
-            "ÈÃÎÒÃÇÏñÕæÕıµÄ${userDream}Ò»ÑùÀ´ÑĞ¾¿Õâ¸öÎÊÌâ°É£¡"
+            "è¿™ä¸ªé—®é¢˜é—®å¾—å¥½ï¼è®©æˆ‘ä»¬ä¸€èµ·æ¥æ¢ç´¢ç­”æ¡ˆå§ï¼??",
+            "å“‡ï¼Œä½ çœŸæ˜¯ä¸ªçˆ±æ€è€ƒçš„å­©å­ï¼è¿™ä¸ªé—®é¢˜æˆ‘ä»¬å¯ä»¥è¿™æ ·ç†è§£...",
+            "å¤ªæ£’çš„é—®é¢˜ï¼è¿™è®©æˆ‘æƒ³èµ·äº†ä¸€ä¸ªæœ‰è¶£çš„çŸ¥è¯†ç‚¹...",
+            "ä½ çš„å¥½å¥‡å¿ƒçœŸå¼ºï¼è¿™æ­£æ˜¯æˆä¸º${userDream}éœ€è¦çš„é‡è¦å“è´¨ï¼",
+            "è®©æˆ‘ä»¬åƒçœŸæ­£çš„${userDream}ä¸€æ ·æ¥ç ”ç©¶è¿™ä¸ªé—®é¢˜å§ï¼"
         ];
         response = defaultResponses[Math.floor(Math.random() * defaultResponses.length)]
                   .replace('${userDream}', userDream);

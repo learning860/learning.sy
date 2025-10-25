@@ -1,11 +1,11 @@
-{
-    "name": "����ѧϰ����",
-    "short_name": "ѧϰ����",
+﻿{
+    "name": "快乐学习伴侣",
+    "short_name": "学习伴侣",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#667eea",
-    "description": "���ӵ�ר��ѧϰ��飬��ѧϰ��ÿ�����Ȥ",
+    "description": "孩子的专属学习伙伴，让学习变得快乐有趣",
     "icons": [
         {
             "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDE5MiAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIiByeD0iMjQiIGZpbGw9IiM2NjdlZWEiLz4KPHN2ZyB4PSI0OCIgeT0iNDgiIHdpZHRoPSI5NiIgaGVpZ2h0PSI5NiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiPgo8cGF0aCBkPSJNMTIgMTNsNCA0IDYtNiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PC9zdmc+Cjwvc3ZnPgo=",
